@@ -1,0 +1,9 @@
+void permute (char *in, int i)
+{
+    if(in[i] == '\0')
+    {
+        cout<<in<<endl;
+        return;
+    }
+    
+    for(int j=i;in[j] !=
